@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            margin-top: 20px;
+        }
+        .text-content {
+            margin-bottom: 20px;
+        }
+        /* Nova cor da Navbar */
+        .navbar {
+            background-color: #e3f2fd; /* Azul claro */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            margin-top: 0px; /* Reduzindo a margem superior */
+        }
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .navbar-nav .nav-link {
+            color: #333; /* Cor do texto */
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #007bff; /* Cor do texto ao passar o mouse */
+        }
+        .navbar-toggler {
+            border-color: #007bff; /* Cor do ícone do toggler */
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 123, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Lolô</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Início <span class="sr-only">(atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-content">
+                <h1>Loreninha ;)</h1>
+                <p>q Deus te abençoe, para q vc continue sendo sempre essa pessoa tão alegre, feliz, linda e inteligente... vc é mt especial ;)</p>
+                <p>espero q esse seu ano seja incrível e muito abençoado pra vc (e será, eiita gloria 🙏✝), q vc consiga realizar todos os seus sonhos, e que seja sempre muito alegre... e q possamos cultivar sempre a nossa amizade</p>
+                <p>(msg de parabéns, do seu aniversário)</p>
+            </div>
+            <div class="col-md-6">
+                <img src="/assets/img/lorena.jpg" alt="Descrição da imagem" class="img-fluid" width="500" height="500">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
